@@ -32,7 +32,7 @@ int main()
     pq.pop();
     if (marked[curNode]){continue;}
     marked[curNode]=true;
-    for (const pair<int, int>& neighbour : adjList[curNode]) {
+    for (auto neighbour : adjList[curNode]) {
       int neighbourNode = neighbour.first;
       int weight = neighbour.second;
       if (dist[neighbourNode]==-1){
