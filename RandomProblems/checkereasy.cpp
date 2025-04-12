@@ -1,9 +1,9 @@
 // https://dmoj.ca/problem/checkereasy
 #include <iostream>
 using namespace std;
-
 int main() 
 {
+  ios::sync_with_stdio(0); cin.tie(0);
   int n, m; cin >> n >> m; n++; m++;
   int ar[n][m];
   int psa[n][m];
