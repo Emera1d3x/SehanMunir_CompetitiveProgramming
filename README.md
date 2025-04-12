@@ -1,3 +1,3 @@
 # SehanMunir_CompetitiveProgramming
-Competitive Programming Stuff
+Competitive Programming Stuff <br>
 https://dmoj.ca/user/Emera1d3x
