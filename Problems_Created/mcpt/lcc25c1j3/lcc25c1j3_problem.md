@@ -1,4 +1,4 @@
-### Candyman Problem
+### Candyman
 
 Candyman, president of MCPT (Mackenzie Candy Producing Team), wants to impress the CCC (Candy Considering Competition) by sending the organizers the **second** sweetest candy the team has produced. (The sweetest candy is reserved for the cookie monster).
 
