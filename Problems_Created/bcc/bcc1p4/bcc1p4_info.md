@@ -1,4 +1,4 @@
-## Bird Computing Competition 1 P4 - Bird Buffet
+## Bird Computing Contest 1 P4 - Bird Buffet
 Link: https://dmoj.ca/problem/bcc1p4
 
 Points: `12p`
