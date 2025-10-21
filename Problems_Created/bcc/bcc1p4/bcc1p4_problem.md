@@ -1,5 +1,7 @@
 > Did you know that *Apteryx australis*, better known as kiwis (flightless bird), consume 200-300 worms daily? <br>
-> <div><img src="https://static.dmoj.ca/media/martor/4ebe28ca-7d65-46a3-a7b7-54fd33d701df.png" alt="Kiwi Sign" width="100"/></div>
+<div>
+    <img src="https://static.dmoj.ca/media/martor/4ebe28ca-7d65-46a3-a7b7-54fd33d701df.png" alt="Kiwi Sign" width="100"/>
+</div>
 
 Along a row, some positions contain *kiwis* (flightless birds), others contain worms, and the rest are empty. 
 
@@ -7,6 +9,8 @@ You are given a string of length ~N~ where each character represents one positio
 - `B` - a bird.
 - `W` - a worm.
 - `X` - nothing.
+
+For example: ~N~ = ~10~ and the string is `BWXWXXWBWB`
 
 Every ~1~ second each bird may move 1 position to its left or right.
 
@@ -68,7 +72,10 @@ WXXBXWXBW
 ## Explanation of Output for Sample Input 2
 A way for the birds to get the maximum numbers of worms is shown in the photo below.
 
-<div style="text-align:center"> <img src="https://static.dmoj.ca/media/martor/cfe8843c-d1d8-469d-a3d8-9d0d1dfb2c88.png" alt="Possibilities" width="700"/></div>
+<div style="text-align:center">
+    <img src="https://static.dmoj.ca/media/martor/cfe8843c-d1d8-469d-a3d8-9d0d1dfb2c88.png" alt="Explanation Image" width="700"/>
+</div>
+
 
 As shown, the bird at position ~4~ may go left and eat the leftmost worm and the bird at position ~8~ may go right, eat the rightmost worm and use up the rest of the time to move to the left and get the final worm at position ~6~. 
 
