@@ -1,4 +1,4 @@
-## Bird Computing Competition 1 P5 - Nest Network
+## Bird Computing Contest 1 P5 - Nest Network
 Link: https://dmoj.ca/problem/bcc1p5
 
 Points: `12p`
