@@ -1,5 +1,4 @@
-### Threatening Treats
-
+### LCC '25 Contest 1 J2 - Threatening Treats
 In the spirit of Halloween, Johnny decides to go trick-or-treating. Unfortunately, he ventures into a rather shady neighborhood. When Johnny returns home, he eagerly eats all the ~N~ candies he collected, one by one in the order he obtained them. Each candy can either increase or decrease his health point by a certain amount ~X~ . Johnny begins with ~K~ health points (HP).
 
 If at any point during his candy feast Johnnys HP drops to ~0~ or below, he sadly does not survive the night.
