@@ -4,6 +4,8 @@
 Problems created for MCPT (Mackenzie's Computer Programming Team). <br>
 **Found here**: https://mcpt.ca/ </br>
 
+(Some may be hidden for now)
+
 ---
 ## Includes
 - Problems for LCCs (Lyon Computing Competition). A monthly coding contest for our school. </br>
