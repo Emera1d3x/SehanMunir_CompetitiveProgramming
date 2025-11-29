@@ -1,23 +1,24 @@
-### Candyman
+# LCC '25 Contest 1 J3 - Candyman
+Candyman, president of MCPT (Mackenzie Candy Producing Team), wants to impress the CCC (Candy Considering Competition) by sending the organizers the **third** sweetest candy the team has produced. (The sweeter candies are reserved for the cookie monster).
 
-Candyman, president of MCPT (Mackenzie Candy Producing Team), wants to impress the CCC (Candy Considering Competition) by sending the organizers the **second** sweetest candy the team has produced. (The sweetest candy is reserved for the cookie monster).
+The team has made ~N~ candies, each with a certain sweetness level. These candies are stored in boxes labeled from ~1~ to ~N~. You are given a list of integers, where the ~i^{\text {th}}~ element represents ~S_i~, the sweetness of the candy in the box. 
 
-The team has made ~N~ candies, each with a certain sweetness level. These candies are stored in boxes labeled from ~1~ to ~N~. You are given an array of integers, where the ~i^{\text th}~ element represents ~S_i~, the sweetness of the candy in the box. 
+Your task is to determine the box number of the third sweetest candy.
 
-Your task is to determine the box number of the second sweetest candy.
+Please note the memory limit. Candyman can't quite remember all the candies at once.
 
 It is guaranteed that the sweetness of each candy is different (no two candies are made the same).
 
 ## Input Specification
 
-The first line will contain one integer ~N\;(1 \le N \le 10^5)~.
+The first line will contain one integer ~N\;(3 \le N \le 10^5)~.
 
-The second line will contain ~N~ spaced integers ~S_i\;(1 \le S_i \le 2\times10^5)~, representing the sweetness of the candies.
+The ~N~ line will contain a single integer, ~S_i\;(1 \le S_i \le 2\times10^5)~, representing the sweetness of the ~i^{\text {th}}~ candy.
 
 
 ## Output Specification
 
-Output the box number of the second sweetest candy.
+Output the box number of the third sweetest candy.
 
 ## Subtasks
 ### Subtasks 1 [20%]
@@ -29,25 +30,44 @@ Output the box number of the second sweetest candy.
 ## Sample Input 1
 ```
 6
-9 2 6 7 3 12
+9
+2
+6
+7
+3
+12
 ```
 
 ## Output for Sample Input 1
 ```
-1
+4
 ```
 
 ## Explanation of Output for Sample Input 1
 
-At box number 1, the candy sweetness is the second greatest.
+There are ~6~ candies. At box number ~4~, the candy sweetness is the third greatest.
 
 ## Sample Input 2
 ```
 15
-21 72 38 44 67 60 35 78 90 97 86 11 1 5 102
+21
+72
+38
+44
+67
+60
+35
+78
+90
+97
+86
+11
+1
+5
+102
 ```
 
 ## Output for Sample Input 2
 ```
-10
+9
 ```
