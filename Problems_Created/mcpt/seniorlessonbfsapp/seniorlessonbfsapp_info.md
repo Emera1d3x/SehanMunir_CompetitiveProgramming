@@ -1,5 +1,5 @@
 ## Mandatory Play-doh
-Link: https://mcpt.ca/problem/seniorlessonbfsapp
+Link: https://mcpt.ca/problem/bfs1
 
 Points: `10p`
 
