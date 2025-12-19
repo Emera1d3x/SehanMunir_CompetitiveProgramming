@@ -1,4 +1,4 @@
-## LCC '25 Contest 3 J2 - Beautiful Snowflakes
+## LCC '25 Contest 3 J3 - Snowball Competition
 
 Link: https://mcpt.ca/problem/lcc25c3j3
 
