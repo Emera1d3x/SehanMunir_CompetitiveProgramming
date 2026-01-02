@@ -1,7 +1,7 @@
 # Problems for MCPT
 
 <img src="https://archive.mcpt.ca/assets/logo.svg" width="100"> <br>
-Problems created for MCPT (Mackenzie's Computer Programming Team). <br>
+Problems created for MCPT (Mackenzie's Competitive Programming Team). <br>
 **Found here**: https://mcpt.ca/ </br>
 
 (Some may be hidden for now)
