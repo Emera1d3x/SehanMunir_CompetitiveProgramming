@@ -1,7 +1,6 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
-typedef long wong; // mandatory good luck charm
-typedef long long wongwong; // mandatory good luck charm 2
+typedef long long ll;
 
 int main() {
   cin.sync_with_stdio(0);cin.tie(0);
