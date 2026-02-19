@@ -20,7 +20,7 @@ Left Side: ~\{x=-S, -S \le y \le S\}~
 
 Right Side: ~\{x=+S, -S \le y \le S\}~
 
-If any holes lie at coordinates that match up with one of these sides, it lies on the frame's perimeter of when the frame has a side length of ~2S~.  
+If any holes lie at coordinates that satisfy with one of these sides, it lies on the frame's perimeter of when the frame has a side length of ~2S~.  
 
 We can begin our implementation by storing the position of holes in a 2D boolean array that is ~2000\times2000~. All coordinates are added by ~1000~ to account for negative positions (most languages don't allow for negative indices).
 Then, we can simply try all possible values of ~S~ within the range ~1~ to ~1000~ to see if a frame of size ~2S~ has enough holes.
@@ -67,7 +67,7 @@ Constraints: ~1 \le N, K \le 10^{5}~ and ~-10^{5} \le X_i, Y_i \le 10^{5}~
 
 A solution using subtask 2's technique will not pass subtask 3. A 2D array can not hold the massive range and will MLE or segfault. Even if you use a map, checking every coordinate on each frame size's perimeter explicitly is too slow. Therefore, we need a more mathematical observation.
 
-We first notice that a point ~(x,y)~ lies on the perimeter of side length ~2S~ if and only if ~\max(|x|, |y|) = S~.
+We first observe that a point ~(x,y)~ lies on the perimeter of side length ~2S~ if and only if ~\max(|x|, |y|) = S~. The full mathematical proof using the perimeter definitions stated in subtask 2 solution is left as an exercise to the reader, but the observation is quite intuitive.
 
 So instead of iterating over all frame sizes (all ~S~) and checking points along the perimeter, we can reverse this logic. For every hole ~(x,y)~, compute ~S~, and maintain a frequency array ``count[S]`` that counts how many holes lie on the perimeter of the square with half side length ~S~. After processing all ~N~ holes, iterate over each ~S~ and merely check if ``count[S] >= K``.
 
