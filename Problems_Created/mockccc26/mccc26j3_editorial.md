@@ -1,6 +1,6 @@
 Rendered Editorial Link: https://mcpt.ca/problem/mccc26j3/editorial
 #### Mock CCC '26 J3 - Holy Moly's Wall
-
+---
 ## Subtask 1
 
 Constraints: ~1 \le N, K \le 10~ and ~-100 \le X_i, Y_i \le 100~
