@@ -1,3 +1,6 @@
+Rendered Editorial Link: https://mcpt.ca/problem/mccc26j5/editorial
+#### Mock CCC '26 J5 - Crow Clash
+---
 For **Subtask 1** and **Subtask 2**, crows only move either east or west.
 
 Notice that since all crows only move horizontally (along the ~x~ axis), their ~y~-coordinate never changes. Therefore, two crows (~i~ and ~j~) only clash if and only if they start on the same ~y~-coordinate (~i_y=j_y~), one is moving east (~i_d~=`E`) and the other is moving west (~j_d~=`W`), and the one moving east is initially west of the crow moving west (~i_x\ltj_x~).
